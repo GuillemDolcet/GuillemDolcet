@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Guillem Dolcet and I'm a Backend Developer</h2>
+<h2 align="left">Hi 👋! My name is Guillem Dolcet and I'm a Fullstack Developer</h2>
 
 ###
 
@@ -25,7 +25,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'INSON S.A.',
-                'position' => 'Backend Developer'         
+                'position' => 'Fullstack Developer'         
             ]
         ];
     }
@@ -36,9 +36,11 @@ class About extends Me
             Php::class,
             Laravel::class,
             Javascript::class,
-            Bootstrap::class,
-            MySql::class,
-            PostgreSQL::class
+            Sql::class,
+            Html::class,
+            Css::class,
+            Git::class,
+            Docker::class
         ];
     }
 }
